@@ -1,0 +1,32 @@
+header {
+  background-color: #334b35;
+
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+
+  z-index: 10;
+
+  width: 100%;
+
+  position: fixed;
+  top: 0px;
+}
+
+header a {
+  color: #ffffff;
+
+  font-family: "livvic";
+
+  font-size: 18px;
+}
+
+header ul {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 50px;
+}

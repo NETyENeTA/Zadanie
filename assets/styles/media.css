@@ -1,0 +1,114 @@
+body {
+  min-width: 1900px;
+}
+
+@media (max-width: 460px) {
+  /* Disabled items */
+  .information,
+  .mega-link {
+    display: none;
+  }
+
+  /* Body */
+
+  body {
+    min-width: 1100px;
+  }
+
+  /* Header */
+
+  header ul {
+    gap: 20px;
+  }
+
+  /* Footer */
+
+  .section-out p {
+    max-width: 350px;
+  }
+
+  /* Welcome Block */
+
+  .welcome article {
+    left: 20px;
+  }
+
+  .welcome h1 {
+    width: 1000px;
+  }
+
+  .welcome a {
+    right: 410px;
+  }
+
+  /* Presentation Block */
+
+  .presentation article {
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .presentation div {
+    max-width: 450px;
+  }
+
+  .presentation h3 {
+    font-size: 18px;
+  }
+
+  .presentation p {
+    font-size: 16px;
+  }
+
+  .presentation span p {
+    font-size: 14px;
+  }
+
+  /* Food Block */
+
+  .foods {
+    flex-wrap: wrap;
+    width: 200px;
+    position: relative;
+  }
+
+  .food:nth-child(3) {
+    order: 1;
+  }
+
+  .food:last-child {
+    order: 2;
+  }
+
+  /* Inspiration Block */
+
+  .inspiration h1 {
+    right: 200px;
+  }
+
+  /* Contacting Block */
+
+  .contacting {
+    justify-content: space-around;
+  }
+
+  .contacting article {
+    right: 0;
+  }
+
+  .contacting form {
+    left: 0;
+  }
+
+  .contacting input {
+    width: 400px;
+  }
+
+  /* Links Block */
+
+  .links-block .cards {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
